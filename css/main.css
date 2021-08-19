@@ -49,11 +49,12 @@ p {
 .wrapper {
     display: flex;
     justify-content: space-between;
+    align-items:center; 
 }
 
 
 .offer {
-    margin-top: 176px;
+    /* margin-top: 176px; */
     /* width: 683px; */
 }
 
@@ -114,6 +115,7 @@ p {
     width: 350px;
     background: url('../img/icons8-time-machine-96.jpg') no-repeat top;
     padding-top: 100px;
+    text-align: center;
 }
 
 .skill-title {
@@ -140,24 +142,37 @@ p {
 
 .mail {
     background: #efecf4;
-    padding-top: 100px:
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
 .form {
   margin-top: 40px;
 
+  /* display:flex; 
+  flex-direction: column;
+  align-items: center; */
+
+  /* width: 340px;
+  margin: 0 auto;  */
+
+  max-width: 340px;
 }
 
 .input {
-  width: 350px;
+  /* width: 340px; */
   border: 1px solid #bbbbbb;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
-  border-radius: 100px;
+  /* border-radius: 100px; */
   height: 45px;
   padding-left: 30px;
+  /* text-align: center; */
 
+  /* margin: 0 auto 15px; */
+
+
+  width: 100%;
 }
 
 .btn-form {
@@ -165,6 +180,13 @@ p {
     cursor: pointer;
     display: inline;
     margin-left: 11px;
+    /* text-align: center; */
+    
+     /* width: 340px; */
+    /* margin: 0 auto; */
+
+    width: 100%;
+
 }
 
 
