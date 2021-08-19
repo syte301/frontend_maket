@@ -103,6 +103,7 @@ p {
 .section-title {
     font-size: 30px;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .skills {
@@ -147,7 +148,7 @@ p {
 }
 
 .form {
-  margin-top: 40px;
+  /* margin-top: 40px; */
 
   /* display:flex; 
   flex-direction: column;
@@ -156,7 +157,11 @@ p {
   /* width: 340px;
   margin: 0 auto;  */
 
+  margin: 0 auto;
+  
   max-width: 340px;
+
+  
 }
 
 .input {
@@ -170,7 +175,8 @@ p {
   /* text-align: center; */
 
   /* margin: 0 auto 15px; */
-
+  
+  margin-bottom: 15px;
 
   width: 100%;
 }
@@ -179,7 +185,7 @@ p {
     border: 0;
     cursor: pointer;
     display: inline;
-    margin-left: 11px;
+    /* margin-left: 11px; */
     /* text-align: center; */
     
      /* width: 340px; */
